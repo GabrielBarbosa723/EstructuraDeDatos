@@ -7,7 +7,7 @@ public class AlgoritmoLogaritmico {
     public static void main (String []args){
         
         
-        int n = 129;
+        int n = 100;
         int contador = 0;
         
         int i = 1;
