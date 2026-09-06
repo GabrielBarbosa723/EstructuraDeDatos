@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Analisis_de_algoritmos_y_complejidad;
 
-/**
- *
- * @author Gabriel
- */
 public class AnalisisAlgortimos {
+    
+    public static void main (String[]args){
+        
+        int n = 10;
+        int contador = 0;
+        
+        //Algortimo O(n)
+        for (int i = 0; i<n ; i++){
+            System.out.println("Iteración: "+i);
+            contador++;
+        }
+        
+        System.out.println("Total de ejecuciones: "+ contador);
+        
+        
+        
+    }
     
 }
